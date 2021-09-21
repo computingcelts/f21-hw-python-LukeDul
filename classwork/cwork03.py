@@ -6,7 +6,7 @@ x = int(input('enter number one: '))
 y = int(input('enter number two: '))
 z = input('enter a string: ')
 
-# Relational operators
+# Relational operators & print syntax
 print('The result of', x, '<', y, 'is:', x < y)
 print('The result of', x, '>', y, 'is:', x > y)
 print('The result of', x, '<=', y, 'is:', x <= y)
