@@ -12,19 +12,19 @@ z = input('Enter operator: ')
 
 # print the sum of x and y only if the value of z is equal to '+'
 
-print('Inputted operator: ', z)
+print('Output: ', x, z, y, '=')
+
 if z == '+':
     print(x + y)
-else:
-    if z == '-':
-        print(x - y)
-    else:
-        if z == '*':
-            print(x * y)
-        else:
-            if z == '/':
-                print(x / y)
-            else:
-                print('Invalid arithmetic operator.')
+
+if z == '-':
+    print(x - y)
+
+if z == '*':
+    print(x * y)
+
+if z == '/':
+    print(x / y)
+
 
 
