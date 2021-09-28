@@ -1,6 +1,6 @@
 val = int(input())
 if val < 10:
-    if val !=5:
+    if val != 5:
         print("wow ", end='')
     else:
         val += 1
