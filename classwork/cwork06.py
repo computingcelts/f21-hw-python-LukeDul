@@ -8,6 +8,6 @@ times = int(input('Enter amount of desired loops: '))
 counter = 1
 
 # Prints counter up to inputted value from 1
-while counter <= times:
-    print(counter)
-    counter += 1
+while counter <= times:                     # Checks condition
+    print(counter)                          # Prints counter
+    counter += 1                            # Increments counter
