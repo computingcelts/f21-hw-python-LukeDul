@@ -24,4 +24,4 @@ elif x == 'nine':
 elif x == 'ten':
     print('The numeric form of', x, 'is', 10)
 else:
-    print("-------------------Invalid Input--------------------")
+    print("Invalid input")
