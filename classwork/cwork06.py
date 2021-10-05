@@ -7,7 +7,7 @@ times = int(input('Enter amount of desired loops: '))
 # Initializes counter
 counter = 1
 
-# Counts to inputted value
+# Prints counter up to inputted value from 1
 while counter <= times:
     print(counter)
     counter += 1
