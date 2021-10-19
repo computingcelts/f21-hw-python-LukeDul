@@ -1,5 +1,6 @@
 # In class work
 # Date: 10/19/21
+
 print('multiplication table')
 for m in range(1, 11):
     for n in range(1, 11, 1):
