@@ -8,14 +8,14 @@ def my_function(number_1, number_2, say_result='yes'):
         result = number_1 * number_2
         if say_result == 'yes':
             engine = pyttsx3.init()
-            engine.say(result)
+            engine.say(str(result))
             engine.runAndWait()
         return result
     else:
         result = number_1 + number_2
         if say_result == 'yes':
             engine = pyttsx3.init()
-            engine.say('result')
+            engine.say(str(result))
             engine.runAndWait()
         return result
 
