@@ -3,12 +3,10 @@
 import pyttsx3
 
 
-def my_function(number_1, number_2, number_type='even'):
+def my_function(number_1, number_2, numbers_type='even'):
     if number_1 % 2 == 0 and number_2 % 2 == 0:  # compound boolean expression
-        print('even')
         return number_1 * number_2
-    elif number_1 % 2 == 1 and number_2 % 2 == 1:  # compound boolean expression
-        print('odd')
+    else:
         return number_1 + number_2
 
 
@@ -17,6 +15,8 @@ engine.say("Hello")
 engine.runAndWait()
 
 
-print(my_function(2, 2))
-print(my_function(1, 1))
+print(my_function(1, 3))
+print(my_function(4, 8))
+print(my_function(1, 3, numbers_type='even'))
+print(my_function(1, 3, numbers_type='odd'))
 
