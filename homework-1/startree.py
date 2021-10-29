@@ -2,6 +2,7 @@
 height = int(input('Enter height of tree: '))
 # Draw one row for every unit of height
 row = 0
+
 while row < height:
     # Print leading spaces; as row gets bigger, the number of
     # leading spaces gets smaller
