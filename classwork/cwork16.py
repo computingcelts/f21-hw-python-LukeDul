@@ -1,7 +1,10 @@
 # Homework 5
 
-def compute_avg(values):  # finds average of a list of numbers
-    if type(values) == list:
+# **************************| FUNCTIONS| **************************
+
+# finds average of a list of numbers
+def compute_avg(values):
+    if type(values) == list:    # checks if argument is list
         summation = 0
         count = 0
 
@@ -12,21 +15,24 @@ def compute_avg(values):  # finds average of a list of numbers
         print(summation, '/', count, '=')
         return summation / count  # average
     else:
-        return 'Invalid Argument: Datatype must be a list'
+        return 'Invalid Argument: Datatype must be list'
 
 
-def compute_greatest(values):  # locates the largest number in a list of numbers
+# locates the largest number in a list of numbers
+def compute_greatest(values):
     if type(values) == list:
-        biggest = values[0]  # binds the first element in the list to (biggest) as a starting point
+        biggest = values[0]     # binds the first element in the list to (biggest) as a starting point
 
-        for n in values:  # checks if each element in the given list is larger than the previous
+        for n in values:        # loops through the given list once
             if n > biggest:
-                biggest = n
+                biggest = n     # assigns n to biggest if it is larger
 
         return biggest
     else:
-        return 'Invalid Argument: Datatype must be a list'
+        return 'Invalid Argument: Datatype must be list'
 
+
+# **************************| MAIN |**************************
 
 test_A = [10, 20, 5, 4, 9, 30, 8, 7, 17]  # given list
 
