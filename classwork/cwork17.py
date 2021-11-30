@@ -3,6 +3,7 @@
 
 # Error Handling: Try and Except
 # Error Classes
+
 list1 = [3, 5, 6]
 d = {'Texas': 10, 'Arizona': 20}
 
